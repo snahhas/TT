@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tax Time</string>
+    <string name="GasTracker">Gas Tracker</string>
+    <string name="Restaurant">restaurant</string>
+    <string name="Supplies">Supplies</string>
+    <string name="Rent">Rent</string>
+    <string name="Maintenance">Maintenance</string>
+    <string name="Utilities">Utilities</string>
+    <string name="Inventory">Inventory</string>
+    <string name="Marketing">Marketing</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

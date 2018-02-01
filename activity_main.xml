@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/multicolor"
+    android:orientation="horizontal"
+    tools:context="com.example.android.taxtimereset.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/style_one"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#3c8e83"
+                android:textSize="15sp"
+                android:text="share" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/gasBtn"
+                    style="@style/style_one"
+                    android:text="@string/GasTracker" />
+
+                <Button
+                    android:id="@+id/resBtn"
+                    style="@style/style_one"
+                    android:text="@string/Restaurant" />
+
+                <Button
+                    android:id="@+id/supBtn"
+                    style="@style/style_one"
+                    android:text="@string/Supplies" />
+
+                <Button
+                    android:id="@+id/rentBtn"
+                    style="@style/style_one"
+                    android:text="@string/Rent" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/maiBtn"
+                    style="@style/style_one"
+                    android:text="@string/Maintenance" />
+
+                <Button
+                    android:id="@+id/utiBtn"
+                    style="@style/style_one"
+                    android:text="@string/Utilities" />
+
+                <Button
+                    android:id="@+id/invBtn"
+                    style="@style/style_one"
+                    android:text="@string/Inventory" />
+
+                <Button
+                    android:id="@+id/marBtn"
+                    style="@style/style_one"
+                    android:text="@string/Marketing" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/style_one"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="billing" />
+
+            <Button
+                style="@style/style_one"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="settings" />
+
+            <Button
+                style="@style/style_one"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="report" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

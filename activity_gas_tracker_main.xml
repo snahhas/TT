@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.android.taxtimereset.MainActivity"
+android:background="@drawable/gas_tracker_road">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <Button
+        android:id="@+id/camBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/camera_icon"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/HistoryBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@drawable/view_back"
+        android:backgroundTint="#fbffffff"
+        android:orientation="vertical"
+        android:clickable="true">
+
+
+
+        <TextView
+            style="@style/Style_three"
+            android:backgroundTint="#b7b1b0b0"
+            android:text="Gas Station History"
+            android:gravity="center_horizontal"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/LocAwn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="give me a start"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+
+
